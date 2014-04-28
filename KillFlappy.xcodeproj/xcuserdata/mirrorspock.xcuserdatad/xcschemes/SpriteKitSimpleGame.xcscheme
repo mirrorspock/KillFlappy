@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "99F294B2190EA2E6009F903A"
                BuildableName = "SpriteKitSimpleGame.app"
-               BlueprintName = "SpriteKitSimpleGame"
-               ReferencedContainer = "container:SpriteKitSimpleGame.xcodeproj">
+               BlueprintName = "KillFlappy"
+               ReferencedContainer = "container:KillFlappy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "99F294DA190EA2E6009F903A"
                BuildableName = "SpriteKitSimpleGameTests.xctest"
-               BlueprintName = "SpriteKitSimpleGameTests"
-               ReferencedContainer = "container:SpriteKitSimpleGame.xcodeproj">
+               BlueprintName = "KillFlappyTests"
+               ReferencedContainer = "container:KillFlappy.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "99F294B2190EA2E6009F903A"
             BuildableName = "SpriteKitSimpleGame.app"
-            BlueprintName = "SpriteKitSimpleGame"
-            ReferencedContainer = "container:SpriteKitSimpleGame.xcodeproj">
+            BlueprintName = "KillFlappy"
+            ReferencedContainer = "container:KillFlappy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "99F294B2190EA2E6009F903A"
             BuildableName = "SpriteKitSimpleGame.app"
-            BlueprintName = "SpriteKitSimpleGame"
-            ReferencedContainer = "container:SpriteKitSimpleGame.xcodeproj">
+            BlueprintName = "KillFlappy"
+            ReferencedContainer = "container:KillFlappy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "99F294B2190EA2E6009F903A"
             BuildableName = "SpriteKitSimpleGame.app"
-            BlueprintName = "SpriteKitSimpleGame"
-            ReferencedContainer = "container:SpriteKitSimpleGame.xcodeproj">
+            BlueprintName = "KillFlappy"
+            ReferencedContainer = "container:KillFlappy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -46,15 +46,15 @@
 		994DFE10190EA55B009EF648 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
 		994DFE17190EB703009EF648 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
 		994DFE18190EB703009EF648 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
-		99F294B3190EA2E6009F903A /* SpriteKitSimpleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitSimpleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F294B3190EA2E6009F903A /* KillFlappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KillFlappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F294B6190EA2E6009F903A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		99F294B8190EA2E6009F903A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		99F294BA190EA2E6009F903A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		99F294BC190EA2E6009F903A /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
-		99F294C0190EA2E6009F903A /* SpriteKitSimpleGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteKitSimpleGame-Info.plist"; sourceTree = "<group>"; };
+		99F294C0190EA2E6009F903A /* KillFlappy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KillFlappy-Info.plist"; sourceTree = "<group>"; };
 		99F294C2190EA2E6009F903A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		99F294C4190EA2E6009F903A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		99F294C6190EA2E6009F903A /* SpriteKitSimpleGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpriteKitSimpleGame-Prefix.pch"; sourceTree = "<group>"; };
+		99F294C6190EA2E6009F903A /* KillFlappy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KillFlappy-Prefix.pch"; sourceTree = "<group>"; };
 		99F294C7190EA2E6009F903A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		99F294C8190EA2E6009F903A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		99F294CB190EA2E6009F903A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,9 +64,9 @@
 		99F294D1190EA2E6009F903A /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
 		99F294D3190EA2E6009F903A /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		99F294D5190EA2E6009F903A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		99F294DB190EA2E6009F903A /* SpriteKitSimpleGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitSimpleGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F294DB190EA2E6009F903A /* KillFlappyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KillFlappyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F294DC190EA2E6009F903A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		99F294E4190EA2E6009F903A /* SpriteKitSimpleGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteKitSimpleGameTests-Info.plist"; sourceTree = "<group>"; };
+		99F294E4190EA2E6009F903A /* KillFlappyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KillFlappyTests-Info.plist"; sourceTree = "<group>"; };
 		99F294E6190EA2E6009F903A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		99F294E8190EA2E6009F903A /* SpriteKitSimpleGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteKitSimpleGameTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,8 +118,8 @@
 		99F294B4190EA2E6009F903A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				99F294B3190EA2E6009F903A /* SpriteKitSimpleGame.app */,
-				99F294DB190EA2E6009F903A /* SpriteKitSimpleGameTests.xctest */,
+				99F294B3190EA2E6009F903A /* KillFlappy.app */,
+				99F294DB190EA2E6009F903A /* KillFlappyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,10 +160,10 @@
 		99F294BF190EA2E6009F903A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				99F294C0190EA2E6009F903A /* SpriteKitSimpleGame-Info.plist */,
+				99F294C0190EA2E6009F903A /* KillFlappy-Info.plist */,
 				99F294C1190EA2E6009F903A /* InfoPlist.strings */,
 				99F294C4190EA2E6009F903A /* main.m */,
-				99F294C6190EA2E6009F903A /* SpriteKitSimpleGame-Prefix.pch */,
+				99F294C6190EA2E6009F903A /* KillFlappy-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -180,7 +180,7 @@
 		99F294E3190EA2E6009F903A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				99F294E4190EA2E6009F903A /* SpriteKitSimpleGameTests-Info.plist */,
+				99F294E4190EA2E6009F903A /* KillFlappyTests-Info.plist */,
 				99F294E5190EA2E6009F903A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -189,9 +189,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		99F294B2190EA2E6009F903A /* SpriteKitSimpleGame */ = {
+		99F294B2190EA2E6009F903A /* KillFlappy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99F294EC190EA2E6009F903A /* Build configuration list for PBXNativeTarget "SpriteKitSimpleGame" */;
+			buildConfigurationList = 99F294EC190EA2E6009F903A /* Build configuration list for PBXNativeTarget "KillFlappy" */;
 			buildPhases = (
 				99F294AF190EA2E6009F903A /* Sources */,
 				99F294B0190EA2E6009F903A /* Frameworks */,
@@ -201,14 +201,14 @@
 			);
 			dependencies = (
 			);
-			name = SpriteKitSimpleGame;
+			name = KillFlappy;
 			productName = SpriteKitSimpleGame;
-			productReference = 99F294B3190EA2E6009F903A /* SpriteKitSimpleGame.app */;
+			productReference = 99F294B3190EA2E6009F903A /* KillFlappy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		99F294DA190EA2E6009F903A /* SpriteKitSimpleGameTests */ = {
+		99F294DA190EA2E6009F903A /* KillFlappyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99F294EF190EA2E6009F903A /* Build configuration list for PBXNativeTarget "SpriteKitSimpleGameTests" */;
+			buildConfigurationList = 99F294EF190EA2E6009F903A /* Build configuration list for PBXNativeTarget "KillFlappyTests" */;
 			buildPhases = (
 				99F294D7190EA2E6009F903A /* Sources */,
 				99F294D8190EA2E6009F903A /* Frameworks */,
@@ -219,9 +219,9 @@
 			dependencies = (
 				99F294E1190EA2E6009F903A /* PBXTargetDependency */,
 			);
-			name = SpriteKitSimpleGameTests;
+			name = KillFlappyTests;
 			productName = SpriteKitSimpleGameTests;
-			productReference = 99F294DB190EA2E6009F903A /* SpriteKitSimpleGameTests.xctest */;
+			productReference = 99F294DB190EA2E6009F903A /* KillFlappyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -238,7 +238,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 99F294AE190EA2E6009F903A /* Build configuration list for PBXProject "SpriteKitSimpleGame" */;
+			buildConfigurationList = 99F294AE190EA2E6009F903A /* Build configuration list for PBXProject "KillFlappy" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -251,8 +251,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				99F294B2190EA2E6009F903A /* SpriteKitSimpleGame */,
-				99F294DA190EA2E6009F903A /* SpriteKitSimpleGameTests */,
+				99F294B2190EA2E6009F903A /* KillFlappy */,
+				99F294DA190EA2E6009F903A /* KillFlappyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -308,7 +308,7 @@
 /* Begin PBXTargetDependency section */
 		99F294E1190EA2E6009F903A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 99F294B2190EA2E6009F903A /* SpriteKitSimpleGame */;
+			target = 99F294B2190EA2E6009F903A /* KillFlappy */;
 			targetProxy = 99F294E0190EA2E6009F903A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -417,9 +417,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SpriteKitSimpleGame/SpriteKitSimpleGame-Prefix.pch";
-				INFOPLIST_FILE = "SpriteKitSimpleGame/SpriteKitSimpleGame-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "SpriteKitSimpleGame/KillFlappy-Prefix.pch";
+				INFOPLIST_FILE = "SpriteKitSimpleGame/KillFlappy-Info.plist";
+				PRODUCT_NAME = KillFlappy;
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -431,9 +431,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SpriteKitSimpleGame/SpriteKitSimpleGame-Prefix.pch";
-				INFOPLIST_FILE = "SpriteKitSimpleGame/SpriteKitSimpleGame-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "SpriteKitSimpleGame/KillFlappy-Prefix.pch";
+				INFOPLIST_FILE = "SpriteKitSimpleGame/KillFlappy-Info.plist";
+				PRODUCT_NAME = KillFlappy;
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -454,8 +454,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "SpriteKitSimpleGameTests/SpriteKitSimpleGameTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "SpriteKitSimpleGameTests/KillFlappyTests-Info.plist";
+				PRODUCT_NAME = KillFlappyTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -472,8 +472,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpriteKitSimpleGame/SpriteKitSimpleGame-Prefix.pch";
-				INFOPLIST_FILE = "SpriteKitSimpleGameTests/SpriteKitSimpleGameTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "SpriteKitSimpleGameTests/KillFlappyTests-Info.plist";
+				PRODUCT_NAME = KillFlappyTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -482,7 +482,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		99F294AE190EA2E6009F903A /* Build configuration list for PBXProject "SpriteKitSimpleGame" */ = {
+		99F294AE190EA2E6009F903A /* Build configuration list for PBXProject "KillFlappy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99F294EA190EA2E6009F903A /* Debug */,
@@ -491,7 +491,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99F294EC190EA2E6009F903A /* Build configuration list for PBXNativeTarget "SpriteKitSimpleGame" */ = {
+		99F294EC190EA2E6009F903A /* Build configuration list for PBXNativeTarget "KillFlappy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99F294ED190EA2E6009F903A /* Debug */,
@@ -500,7 +500,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99F294EF190EA2E6009F903A /* Build configuration list for PBXNativeTarget "SpriteKitSimpleGameTests" */ = {
+		99F294EF190EA2E6009F903A /* Build configuration list for PBXNativeTarget "KillFlappyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99F294F0190EA2E6009F903A /* Debug */,
