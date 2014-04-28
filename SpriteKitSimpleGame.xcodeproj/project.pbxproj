@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		994DFE11190EA55B009EF648 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 994DFE0E190EA55B009EF648 /* background-music-aac.caf */; };
+		994DFE12190EA55B009EF648 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 994DFE0F190EA55B009EF648 /* pew-pew-lei.caf */; };
+		994DFE13190EA55B009EF648 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 994DFE10190EA55B009EF648 /* sprites.atlas */; };
+		994DFE19190EB703009EF648 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 994DFE18190EB703009EF648 /* GameOverScene.m */; };
 		99F294B7190EA2E6009F903A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F294B6190EA2E6009F903A /* Foundation.framework */; };
 		99F294B9190EA2E6009F903A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F294B8190EA2E6009F903A /* CoreGraphics.framework */; };
 		99F294BB190EA2E6009F903A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F294BA190EA2E6009F903A /* UIKit.framework */; };
@@ -37,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		994DFE0E190EA55B009EF648 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		994DFE0F190EA55B009EF648 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		994DFE10190EA55B009EF648 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		994DFE17190EB703009EF648 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		994DFE18190EB703009EF648 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
 		99F294B3190EA2E6009F903A /* SpriteKitSimpleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitSimpleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F294B6190EA2E6009F903A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		99F294B8190EA2E6009F903A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -87,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		994DFE0D190EA55B009EF648 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				994DFE0E190EA55B009EF648 /* background-music-aac.caf */,
+				994DFE0F190EA55B009EF648 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		99F294AA190EA2E6009F903A = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +139,8 @@
 		99F294BE190EA2E6009F903A /* SpriteKitSimpleGame */ = {
 			isa = PBXGroup;
 			children = (
+				994DFE0D190EA55B009EF648 /* Sounds */,
+				994DFE10190EA55B009EF648 /* sprites.atlas */,
 				99F294C7190EA2E6009F903A /* AppDelegate.h */,
 				99F294C8190EA2E6009F903A /* AppDelegate.m */,
 				99F294CA190EA2E6009F903A /* Main.storyboard */,
@@ -129,6 +149,8 @@
 				99F294D0190EA2E6009F903A /* MyScene.h */,
 				99F294D1190EA2E6009F903A /* MyScene.m */,
 				99F294D3190EA2E6009F903A /* Spaceship.png */,
+				994DFE17190EB703009EF648 /* GameOverScene.h */,
+				994DFE18190EB703009EF648 /* GameOverScene.m */,
 				99F294D5190EA2E6009F903A /* Images.xcassets */,
 				99F294BF190EA2E6009F903A /* Supporting Files */,
 			);
@@ -240,10 +262,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				994DFE13190EA55B009EF648 /* sprites.atlas in Resources */,
+				994DFE11190EA55B009EF648 /* background-music-aac.caf in Resources */,
 				99F294C3190EA2E6009F903A /* InfoPlist.strings in Resources */,
 				99F294D6190EA2E6009F903A /* Images.xcassets in Resources */,
 				99F294D4190EA2E6009F903A /* Spaceship.png in Resources */,
 				99F294CC190EA2E6009F903A /* Main.storyboard in Resources */,
+				994DFE12190EA55B009EF648 /* pew-pew-lei.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				994DFE19190EB703009EF648 /* GameOverScene.m in Sources */,
 				99F294D2190EA2E6009F903A /* MyScene.m in Sources */,
 				99F294CF190EA2E6009F903A /* ViewController.m in Sources */,
 				99F294C9190EA2E6009F903A /* AppDelegate.m in Sources */,
@@ -472,6 +498,7 @@
 				99F294EE190EA2E6009F903A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99F294EF190EA2E6009F903A /* Build configuration list for PBXNativeTarget "SpriteKitSimpleGameTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +507,7 @@
 				99F294F1190EA2E6009F903A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
