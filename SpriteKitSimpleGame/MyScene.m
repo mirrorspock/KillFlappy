@@ -56,7 +56,7 @@ static inline CGPoint rwNormalize(CGPoint a) {
 
 
 - (void) addMonster {
-    SKSpriteNode * monster = [SKSpriteNode spriteNodeWithImageNamed:@"monster"];
+    SKSpriteNode * monster = [SKSpriteNode spriteNodeWithImageNamed:@"birdsmall"];
     
     int minY = monster.size.height/2;
     int maxY = self.frame.size.height - monster.size.height /2;
@@ -115,7 +115,7 @@ static inline CGPoint rwNormalize(CGPoint a) {
     projectile.zRotation = direction.y;
     CGPoint realDest = rwAdd(shootAmount, projectile.position);
     
-    float velocity = 480.0 / 1.0;
+    float velocity = 240.0 / 1.0;
     float realMoveDuration = self.size.width / velocity;
     SKAction * actionMove =[SKAction moveTo:realDest duration:realMoveDuration];
     SKAction * actionMoveDone = [SKAction removeFromParent];
