@@ -21,7 +21,6 @@
 		99F294CC190EA2E6009F903A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F294CA190EA2E6009F903A /* Main.storyboard */; };
 		99F294CF190EA2E6009F903A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F294CE190EA2E6009F903A /* ViewController.m */; };
 		99F294D2190EA2E6009F903A /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F294D1190EA2E6009F903A /* MyScene.m */; };
-		99F294D4190EA2E6009F903A /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 99F294D3190EA2E6009F903A /* Spaceship.png */; };
 		99F294D6190EA2E6009F903A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99F294D5190EA2E6009F903A /* Images.xcassets */; };
 		99F294DD190EA2E6009F903A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F294DC190EA2E6009F903A /* XCTest.framework */; };
 		99F294DE190EA2E6009F903A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F294B6190EA2E6009F903A /* Foundation.framework */; };
@@ -62,7 +61,6 @@
 		99F294CE190EA2E6009F903A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		99F294D0190EA2E6009F903A /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		99F294D1190EA2E6009F903A /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		99F294D3190EA2E6009F903A /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		99F294D5190EA2E6009F903A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		99F294DB190EA2E6009F903A /* KillFlappyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KillFlappyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F294DC190EA2E6009F903A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -148,7 +146,6 @@
 				99F294CE190EA2E6009F903A /* ViewController.m */,
 				99F294D0190EA2E6009F903A /* MyScene.h */,
 				99F294D1190EA2E6009F903A /* MyScene.m */,
-				99F294D3190EA2E6009F903A /* Spaceship.png */,
 				994DFE17190EB703009EF648 /* GameOverScene.h */,
 				994DFE18190EB703009EF648 /* GameOverScene.m */,
 				99F294D5190EA2E6009F903A /* Images.xcassets */,
@@ -266,7 +263,6 @@
 				994DFE11190EA55B009EF648 /* background-music-aac.caf in Resources */,
 				99F294C3190EA2E6009F903A /* InfoPlist.strings in Resources */,
 				99F294D6190EA2E6009F903A /* Images.xcassets in Resources */,
-				99F294D4190EA2E6009F903A /* Spaceship.png in Resources */,
 				99F294CC190EA2E6009F903A /* Main.storyboard in Resources */,
 				994DFE12190EA55B009EF648 /* pew-pew-lei.caf in Resources */,
 			);
