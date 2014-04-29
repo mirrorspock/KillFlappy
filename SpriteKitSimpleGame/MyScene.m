@@ -93,7 +93,7 @@ static inline CGPoint rwNormalize(CGPoint a) {
     [self runAction:[SKAction playSoundFileNamed:@"pew-pew-lei.caf" waitForCompletion:NO]];
     UITouch * touch = [touches anyObject];
     CGPoint location = [touch locationInNode:self];
-    SKSpriteNode * projectile = [SKSpriteNode spriteNodeWithImageNamed:@"projectile"];
+    SKSpriteNode * projectile = [SKSpriteNode spriteNodeWithImageNamed:@"bulletbill"];
     
     projectile.position = self.player.position;
     projectile.physicsBody = [SKPhysicsBody bodyWithCircleOfRadius:projectile.size.width/2];

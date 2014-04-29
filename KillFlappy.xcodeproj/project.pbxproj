@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38A557CA190FBFBB002ACA89 /* bitebullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A557C9190FBFBB002ACA89 /* bitebullet.png */; };
+		38A557CC190FBFED002ACA89 /* bulletbill.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A557CB190FBFED002ACA89 /* bulletbill.png */; };
+		38A557CE190FC121002ACA89 /* fireball.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A557CD190FC121002ACA89 /* fireball.png */; };
 		994DFE11190EA55B009EF648 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 994DFE0E190EA55B009EF648 /* background-music-aac.caf */; };
 		994DFE12190EA55B009EF648 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 994DFE0F190EA55B009EF648 /* pew-pew-lei.caf */; };
 		994DFE13190EA55B009EF648 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 994DFE10190EA55B009EF648 /* sprites.atlas */; };
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38A557C9190FBFBB002ACA89 /* bitebullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitebullet.png; sourceTree = "<group>"; };
+		38A557CB190FBFED002ACA89 /* bulletbill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bulletbill.png; sourceTree = "<group>"; };
+		38A557CD190FC121002ACA89 /* fireball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireball.png; sourceTree = "<group>"; };
 		994DFE0E190EA55B009EF648 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
 		994DFE0F190EA55B009EF648 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
 		994DFE10190EA55B009EF648 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
@@ -137,6 +143,9 @@
 		99F294BE190EA2E6009F903A /* SpriteKitSimpleGame */ = {
 			isa = PBXGroup;
 			children = (
+				38A557CD190FC121002ACA89 /* fireball.png */,
+				38A557CB190FBFED002ACA89 /* bulletbill.png */,
+				38A557C9190FBFBB002ACA89 /* bitebullet.png */,
 				994DFE0D190EA55B009EF648 /* Sounds */,
 				994DFE10190EA55B009EF648 /* sprites.atlas */,
 				99F294C7190EA2E6009F903A /* AppDelegate.h */,
@@ -261,9 +270,12 @@
 			files = (
 				994DFE13190EA55B009EF648 /* sprites.atlas in Resources */,
 				994DFE11190EA55B009EF648 /* background-music-aac.caf in Resources */,
+				38A557CE190FC121002ACA89 /* fireball.png in Resources */,
 				99F294C3190EA2E6009F903A /* InfoPlist.strings in Resources */,
 				99F294D6190EA2E6009F903A /* Images.xcassets in Resources */,
 				99F294CC190EA2E6009F903A /* Main.storyboard in Resources */,
+				38A557CA190FBFBB002ACA89 /* bitebullet.png in Resources */,
+				38A557CC190FBFED002ACA89 /* bulletbill.png in Resources */,
 				994DFE12190EA55B009EF648 /* pew-pew-lei.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
